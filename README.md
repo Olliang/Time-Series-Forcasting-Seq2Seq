@@ -1,4 +1,4 @@
-# Sequence to Sequence Learning with Encoder-Decoder Neural Network Models
+# Seq2Seq Learning with Encoder-Decoder Neural Network Models
 
 
 ## Introduction:
