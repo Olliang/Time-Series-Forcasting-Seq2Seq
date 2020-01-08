@@ -1,4 +1,4 @@
-# Time-Series-Forcasting (Sequence to Sequence Learning with Encoder-Decoder Neural Network Models)
+# Sequence to Sequence Learning with Encoder-Decoder Neural Network Models
 
 
 ## Introduction:
