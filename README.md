@@ -11,3 +11,9 @@ This is a project completed during my study in M.S. Business Analytics program a
 
 ## How to reproduce competition results:
 1. Download input files from https://www.kaggle.com/c/recruit-restaurant-visitor-forecasting.
+
+
+## References:
+https://blog.keras.io/a-ten-minute-introduction-to-sequence-to-sequence-learning-in-keras.html
+https://www.kaggle.com/ievgenvp/lstm-encoder-decoder-via-keras-lb-0-5
+
