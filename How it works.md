@@ -38,7 +38,7 @@ RNN is built for sequential problems like this to provide the network a memory o
 
 ## Feature engineering
 
-I would list out the features I used in this seq2seq model for a more completed picturing of what we are working on here. But if you are curious about or want to recreate the features by your own, please go to my collegue's github for scripts and more information about it.
+I would list out the features I used in this seq2seq model for a more completed picturing of what we are working on here. But if you are curious about or want to recreate the features by your own, please go to my collegue's [github](https://github.umn.edu/MUSCH038/Predictive-Project---Time-Series) for scripts and more information about it.
 
 Considering the input data structure the LSTM RNN model needed, we filled up all the dates within the whole time span (2016-01-01 ~ 2017-05-31) for each stores with number of visitors as 0 on those dates, and the time-independent features (food types, longitude, latitude, etc) are "stretched" to timeseries length. 
 
