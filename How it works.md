@@ -2,7 +2,7 @@
 
 
 
-### What is Seq2Seq?
+## What is Seq2Seq?
 
 First, for those who are not familiar with Seq2Seq concept, I would like to give a brief introduction about it. Borrowing the definition from [a Keras Blog](https://blog.keras.io/a-ten-minute-introduction-to-sequence-to-sequence-learning-in-keras.html) : Seq2Seq, short for Sequence-to-sequence learning, is about training models to convert sequences from one domain (e.g. sentences in English) to sequences in another domain (e.g. the same sentences translated to French). It has been widely used in the following subjects:
 
@@ -21,7 +21,7 @@ In order to capture the whole information or changing pattern of the data in pre
 
 
 
-### Why does it fit time series problem?
+## Why does it fit time series problem?
 
 It might be more intuitive to understand why this concept is needed in a language translation problem, since most translation is not working in the way of "word to word". However, seq2seq is also very helpful in solving time series forecasting problems, even though there is only a few applications available online on this as I am aware of. This implementation is inspired by the first place solution for another time series prediction on Kaggle. I would recommend readers to go through [that winner's post](https://github.com/Arturus/kaggle-web-traffic) for a deeper understanding on this type of topic and some more advanced settings after reading my page. 
 
@@ -36,7 +36,7 @@ RNN is built for sequential problems like this to provide the network a memory o
 
 
 
-### Feature engineering
+## Feature engineering
 
 
 
@@ -95,11 +95,11 @@ As a side note here, I also encoded all the categorical features to and normaliz
 
 
 
-### Model core
+## Model core
 
 
 
-##### Input data structure:
+### Input data structure:
 
 We are predicting the number of visitors for 829 restaurants on each day from 2017-04-23 to 2017-05-31 (39 days total) using the number of visitors and features of those restaurants on each day from 2016-01-01 to 2017-04-22(478 days total). 
 
@@ -109,7 +109,7 @@ Here I would use a graph to depict the structure better:
 
 ![input_shape](https://github.com/Olliang/Time-Series-Forcasting/blob/master/images/input_shape%20graph.png)
 
-##### Modeling:
+### Modeling:
 
 > > Main algorithm 
 
@@ -155,7 +155,7 @@ The following graph depicts the improved model with **teacher forcing** method:
 
 
 
-### Further improvement
+## Further improvement
 
 
 
