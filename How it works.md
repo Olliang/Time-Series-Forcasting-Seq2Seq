@@ -4,7 +4,7 @@
 
 ## What is Seq2Seq?
 
-First, for those who are not familiar with Seq2Seq concept, I would like to give a brief introduction about it. Borrowing the definition from [a Keras Blog](https://blog.keras.io/a-ten-minute-introduction-to-sequence-to-sequence-learning-in-keras.html) : Seq2Seq, short for Sequence-to-sequence learning, is about training models to convert sequences from one domain (e.g. sentences in English) to sequences in another domain (e.g. the same sentences translated to French). It has been widely used in the following subjects:
+First, for those who are not familiar with Seq2Seq concept, I would like to give a brief introduction about it. Borrowing the definition from [Francois Chollet's Keras Blog](https://blog.keras.io/a-ten-minute-introduction-to-sequence-to-sequence-learning-in-keras.html) : Seq2Seq, short for Sequence-to-sequence learning, is about training models to convert sequences from one domain (e.g. sentences in English) to sequences in another domain (e.g. the same sentences translated to French). It has been widely used in the following subjects:
 
 - Neural Machine Translation
 - Speech Recognition
