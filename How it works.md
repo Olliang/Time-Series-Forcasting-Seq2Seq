@@ -35,6 +35,7 @@ RNN is built for sequential problems like this to provide the network a memory o
 
 
 
+
 ### Feature engineering
 
 
@@ -90,6 +91,7 @@ count_observations
 
 
 As a side note here, I also encoded all the categorical features to and normalized all the numerical values to avoid the negative impact from different scales between features.
+
 
 
 
