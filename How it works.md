@@ -100,9 +100,7 @@ As a side note here, I also encoded all the categorical features to and normaliz
 
 ### Input data structure:
 
-We are predicting the number of visitors for 829 restaurants on each day from 2017-04-23 to 2017-05-31 (39 days total) using the number of visitors and features of those restaurants on each day from 2016-01-01 to 2017-04-22(478 days total). 
-
-We will need to reshape our training data into the input shape RNN requires, which is (samples, timesteps, features) corresponding to (batch_size, time_steps, input_dim).
+We are predicting the number of visitors for 829 restaurants on each day from 2017-04-23 to 2017-05-31 (39 days total) using the number of visitors and features of those restaurants on each day from 2016-01-01 to 2017-04-22(478 days total). Therefore, we will need to reshape our training data into the input shape RNN requires, which is (samples, timesteps, features) corresponding to (batch_size, time_steps, input_dim).
 
 Here I would use a graph to depict the structure better:
 
