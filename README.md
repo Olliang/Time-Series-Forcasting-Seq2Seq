@@ -10,6 +10,8 @@ This specific modeling solution was referenced from one of [the Kaggle submissio
 
 ## Main Files:
 
+`How it works.md` - Main file that explains how this model works
+`model.ip`- Main script that implement the modeling process
 
 ## How to reproduce competition results:
 1. Download input files from https://www.kaggle.com/c/recruit-restaurant-visitor-forecasting.
