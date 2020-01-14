@@ -117,7 +117,7 @@ Here I would use a graph to depict the structure better:
 
 I assume you know how RNN and LSTM looks like, but let’s have a short reminder. LSTM was proposed mainly to address gradient vanishing problem typical naïve RNN suffers from, since the hidden states and cell states updated in each LSTM cell through 3 gates will help capture those relatively longer previous memory. 
 
-![LSTM](https://github.com/Olliang/Time-Series-Forcasting/blob/master/images/LSTM network.png)
+![LSTM](https://github.com/Olliang/Time-Series-Forcasting/blob/master/images/LSTM%20network.png)
 
 For deeper understanding of this concept, I recommend reading [Colah’s blog](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwjGu_Kb9qHfAhUD0RoKHYSjAgwQFjAAegQIAhAC&url=http%3A%2F%2Fcolah.github.io%2F&usg=AOvVaw1GKlzuXDPgSuty6MfhWlol) for an in-depth review of LSTM networks. To summarize how LSTM works, I would specify some key concepts here to help refresh your memory for understanding the concepts used in the following model.
 
