@@ -11,6 +11,7 @@ This specific modeling solution was referenced from one of [the Kaggle submissio
 ## Main Files:
 
 `How it works.md` - Main file that explains how this model works
+
 `Seq2Seq (LSTM).ipynb`- Main notebook script that implement the modeling process
 
 ## How to reproduce competition results:
