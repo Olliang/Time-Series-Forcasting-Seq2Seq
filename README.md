@@ -11,15 +11,22 @@ This specific modeling solution was referenced from one of [the Kaggle submissio
 ## Main Files:
 
 `How it works.md` - Main file that explains how this model works
-`model.ip`- Main script that implement the modeling process
+`Seq2Seq (LSTM).ipynb`- Main notebook script that implement the modeling process
 
 ## How to reproduce competition results:
-1. Download input files from https://www.kaggle.com/c/recruit-restaurant-visitor-forecasting.
-2. 
+1. Download input files from the `data` folder - `train_final.zip`(needs to be decompressed), `test_final.csv`, and `sample_submission`
+2. Download the notebook file called `Seq2Seq (LSTM).ipynb` and put it into the same local folder as the data files.
+3. Run the whole notebook file
 
 ## References:
 >Seq2Seq
-https://blog.keras.io/a-ten-minute-introduction-to-sequence-to-sequence-learning-in-keras.html
 https://www.kaggle.com/ievgenvp/lstm-encoder-decoder-via-keras-lb-0-5
+https://blog.keras.io/a-ten-minute-introduction-to-sequence-to-sequence-learning-in-keras.html
+
 >LSTM
 https://medium.com/datadriveninvestor/how-do-lstm-networks-solve-the-problem-of-vanishing-gradients-a6784971a577
+
+>Attention
+https://distill.pub/2016/augmented-rnns/
+http://www.wildml.com/2016/01/attention-and-memory-in-deep-learning-and-nlp/
+
