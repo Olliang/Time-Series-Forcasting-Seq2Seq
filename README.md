@@ -22,6 +22,7 @@ This specific modeling solution was referenced from one of [the Kaggle submissio
 ## References:
 >Seq2Seq
 https://www.kaggle.com/ievgenvp/lstm-encoder-decoder-via-keras-lb-0-5
+
 https://blog.keras.io/a-ten-minute-introduction-to-sequence-to-sequence-learning-in-keras.html
 
 >LSTM
@@ -29,5 +30,6 @@ https://medium.com/datadriveninvestor/how-do-lstm-networks-solve-the-problem-of-
 
 >Attention
 https://distill.pub/2016/augmented-rnns/
+
 http://www.wildml.com/2016/01/attention-and-memory-in-deep-learning-and-nlp/
 
