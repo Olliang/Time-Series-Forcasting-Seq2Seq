@@ -86,7 +86,6 @@ The following are the features included in the model:
 
 `mean, median, max, min visitors` - average/median/maximum/minimum number of visitors for each store for a specific weekday.
 
-count_observations
 
 
 
