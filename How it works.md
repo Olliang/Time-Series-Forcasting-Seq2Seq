@@ -112,7 +112,7 @@ Here I would use a graph to depict the structure better:
 
 
 
-I assume you know how RNN and LSTM looks like, but let’s have a short reminder. LSTM was proposed mainly to address gradient vanishing problem typical naïve RNN suffers from, since the hidden states and cell states updated in each LSTM cell through 3 gates will help capture those relatively longer previous memory. 
+I assume you know how simple RNN and LSTM look like, but let’s have a short reminder. LSTM was proposed mainly to address gradient vanishing problem typical naïve RNN suffers from, since the hidden states and cell states updated in each LSTM cell through 3 gates will help capture those relatively longer previous memory. 
 
 ![LSTM](https://github.com/Olliang/Time-Series-Forcasting/blob/master/images/LSTM%20network.png)
 
