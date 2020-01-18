@@ -10,7 +10,7 @@ This is a topic I tried to learn via a [Kaggle competition](https://www.kaggle.c
 This specific modeling solution was referenced from this [Kaggle submission](https://www.kaggle.com/ievgenvp/lstm-encoder-decoder-via-keras-lb-0-5/output#L505) with some modifications. Many thanks to this well-organized script, I was able to recreate this encoder-decoder model. However, there was not much detailed/intuitive explanation about the motivation and the structure of the model, which made it hard for me as a beginner to follow at the first place. Therefore, I would like to walk through the logic behind that solution here and hopefully it can benefit some folks who just started to step into this amazing field.
 
 
-## Main Files:
+## Main files:
 
 `How it works.md` - Main file that explains how this model works
 
