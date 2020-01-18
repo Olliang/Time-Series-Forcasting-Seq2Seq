@@ -41,6 +41,6 @@ http://www.wildml.com/2016/01/attention-and-memory-in-deep-learning-and-nlp/
 
 ## Contact information
 
-If there is anything to be corrected or you have any thoughts to share with me on this topic, please feel free to contact me. It's allways pleasure to learn more.
+If there is anything to be corrected or you have any thoughts to share with me on this topic, please feel free to reach out! It's allways pleasure to learn more.
 >Email: olivia.liang032@gmail.com
 
