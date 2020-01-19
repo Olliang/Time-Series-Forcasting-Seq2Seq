@@ -17,9 +17,9 @@ This specific modeling solution was referenced from this [Kaggle submission](htt
 `Seq2Seq (LSTM).ipynb`- Main notebook script that implement the modeling process
 
 ## How to reproduce competition results:
-1. Download input files from the `data` folder - `train_final.zip`(needs to be decompressed), `test_final.csv`, and `sample_submission`
+1. Download input files from the `data` folder - `train_final.zip`(needs to be decompressed), `test_final.csv`, and `sample_submission`.
 2. Download the notebook file called `Seq2Seq (LSTM).ipynb` and put it into the same local folder as the data files.
-3. Run the whole notebook file
+3. Run the whole notebook file.
 
 ## References:
 >Seq2Seq
