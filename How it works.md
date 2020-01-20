@@ -126,7 +126,7 @@ There are 3 different gates that regulate information flow in a LSTM cell - forg
 
 > > Training-inference process
 
-The model has two main parts: encoder and decoder. The encoder takes input features of 39 days (t*1, t*2 … t39) and encode their hidden states through LSTM neural network into a fixed length vector. Then it passes the hidden states to decoder. Decoder, designed as 2 fully connected LSTM neural networks, uses them with the features of 39 days shifted 1 day forward (t*2, t*3 … t40) to predict number of visitors per each of 829 restaurants in t_40. The LSTM layer is defined to return both sequences and state. The final hidden and cell states are ignored and only the output sequence of hidden states is referenced. 
+The model has two main parts: encoder and decoder. The encoder takes input features of 39 days (t*1, t*2 … t39) and encode their hidden states through LSTM neural network into a fixed length vector. Then it passes the hidden states to decoder. Decoder, designed as 2 fully connected LSTM neural networks in this case, uses them with the features of 39 days shifted 1 day forward (t*2, t*3 … t40) to predict number of visitors per each of 829 restaurants in t_40. The LSTM layer is defined to return both sequences and state. The final hidden and cell states are ignored and only the output sequence of hidden states is referenced. 
 
 
 
