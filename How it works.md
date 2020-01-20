@@ -1,6 +1,6 @@
 # How it works
 
-[Note: This report is writen assuming readers have basic knowledge about RNN model.]
+[Note: This report is written assuming that readers have basic knowledge about RNN model.]
 
 ## What is Seq2Seq?
 
